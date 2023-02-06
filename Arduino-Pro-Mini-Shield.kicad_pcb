@@ -129,7 +129,7 @@
     (property "Sheetname" "")
     (path "/8df835ec-3bad-4a57-80a6-a28a40eaaf75")
     (attr through_hole)
-    (fp_text reference "J5" (at 1.27 -2.33) (layer "F.SilkS")
+    (fp_text reference "J5" (at 1.27 -2.33) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9591f5f2-3a08-4a01-8419-3224315704b0)
     )
@@ -316,7 +316,7 @@
     (property "Sheetname" "")
     (path "/71ca3e8e-9db0-4618-b0ce-e2e7233e7c48")
     (attr through_hole)
-    (fp_text reference "J6" (at 1.27 -2.33) (layer "F.SilkS")
+    (fp_text reference "J6" (at 1.27 -2.33) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6bb47713-a4f1-4b08-bca8-124dbe06182e)
     )
@@ -534,7 +534,7 @@
 
   (footprint "MadeByJochen:MadeByJochen_5x5" (layer "F.Cu")
     (tedit 62BA966C) (tstamp c0ab948b-d4f3-4214-9c46-0c361f5d167f)
-    (at 106.7816 63.9318)
+    (at 115.648911 100.853633)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at -2.4 -3.5) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -2678,6 +2678,7 @@
     )
   )
 
+  (gr_rect (start 114.8588 62.738) (end 116.586 63.1444) (layer "F.SilkS") (width 0.15) (fill solid) (tstamp efb55c49-7d60-4ccb-8c40-8595a85f6fe8))
   (gr_line (start 96.6462 61.0458) (end 134.6462 61.0458) (layer "Edge.Cuts") (width 0.1) (tstamp 321fc323-50d2-4638-a2c4-344714567723))
   (gr_line (start 96.6462 105.0458) (end 96.6462 61.0458) (layer "Edge.Cuts") (width 0.1) (tstamp 7891df78-a10e-42fe-848e-be9bed2b4b52))
   (gr_line (start 134.6462 105.0458) (end 96.6462 105.0458) (layer "Edge.Cuts") (width 0.1) (tstamp 9c803104-5096-4d80-ba15-61eae4fb2cf5))
